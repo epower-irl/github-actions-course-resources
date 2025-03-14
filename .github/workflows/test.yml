@@ -12,7 +12,7 @@ jobs:
           node-version: 17.9.0
       - name: Try creating new package-lock file
         run: npm install
-        run: ls
+        ls
       - name: Install dependencies
         run: npm ci
       - name: Run tests
